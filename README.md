@@ -6,7 +6,7 @@ Attach a QR code to your belongings → finder scans → instantly contacts you.
 
 ## 🚀 Create your tag
 
-👉 https://vanbassum.github.io/dogtag/edit
+👉 https://vanbassum.github.io/dogtag/#/edit
 
 Fill in your details and copy the generated link.
 
