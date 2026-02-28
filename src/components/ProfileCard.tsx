@@ -133,7 +133,7 @@ export function ProfileCard({
               label="WhatsApp"
               value="Message me"
               href={`https://wa.me/${normalizePhoneForWa(waVal)}?text=${encodeURIComponent(
-                "Hi, I found your item."
+                "Hi, I found your luggage."
               )}`}
               external
             />

@@ -8,7 +8,7 @@ export function App() {
     const phone = urlParams.get("phone") ?? ""
     const whatsapp = urlParams.get("whatsapp") ?? phone
     const country = urlParams.get("country") ?? ""
-    const message = urlParams.get("message") ?? ""
+    const message = urlParams.get("message") ?? "Thanks for finding my luggage! Please contact me below so we can arrange its return."
 
     return (
         <div className="bg-muted flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
