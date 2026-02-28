@@ -8,6 +8,7 @@ export type ProfileCardProps = {
   whatsapp?: string
   country?: string
   className?: string
+  message?: string
 }
 
 function normalizePhoneForTel(input: string) {
@@ -66,6 +67,7 @@ export function ProfileCard({
   whatsapp,
   country,
   className,
+  message,
 }: ProfileCardProps) {
   const emailVal = email?.trim()
   const phoneVal = phone?.trim()
@@ -78,8 +80,7 @@ export function ProfileCard({
         <div className="flex flex-col items-center text-center">
           <h3 className="mt-2 text-xl font-semibold">{name}</h3>
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">
-            Thanks for finding this item! Please contact me below so we can
-            arrange its return. 🙏 
+            {message}
           </p>
         </div>
 
